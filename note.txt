@@ -1,0 +1,46 @@
+﻿
+Komkrit Aree
+2.24K subscribers
+แนะนำการใช้งาน Git เบื้องต้น
+
+ดาวน์โหลด Git ได้ที่ http://git-scm.com/downloads
+
+Step 1: config
+
+git config --global user.name gg
+
+git config -- global user.email gg@gmail.com
+
+-------------------------------------------------------------------------------
+Step 2: create git
+
+git init ชื่อโฟลเดอร์งาน
+
+-------------------------------------------------------------------------------
+Step 3: add file
+
+git add -A
+
+-------------------------------------------------------------------------------
+Step 4: commit file
+
+git commit -a -m "ข้อความแจ้งเตือน"
+
+-------------------------------------------------------------------------------
+Step 5: status
+
+git status
+
+git log
+
+-------------------------------------------------------------------------------
+Step 6: checkout
+
+ย้อนกลับโดใช้ตัวเลข commit 6 หลัก
+git checkout ตัวเลข commit 6 หลัก
+
+ย้อนกลับไปทีละสเตป
+git checkout HEAD~2
+
+ย้อนกลับไปยังตำแหน่ง master ที่เราทำการ commit ไว้ล่าสุด
+git checkout master
